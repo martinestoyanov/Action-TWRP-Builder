@@ -1,4 +1,4 @@
-name: Recovery Build
+name: Recovery Build - Optimized
 
 concurrency:
   group: recovery-build-${{ github.event.inputs.DEVICE_NAME }}-${{ github.event.inputs.MANIFEST_BRANCH }}
