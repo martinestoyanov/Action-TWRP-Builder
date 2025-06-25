@@ -7,14 +7,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from TB132FU device
 $(call inherit-product, device/LENOVO/TB132FU/device.mk)
 
 PRODUCT_DEVICE := TB132FU
-PRODUCT_NAME := omni_TB132FU
+PRODUCT_NAME := twrp_TB132FU
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := TB132FU
 PRODUCT_MANUFACTURER := LENOVO
